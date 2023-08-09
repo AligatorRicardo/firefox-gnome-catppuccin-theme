@@ -34,15 +34,15 @@ Based on GNOME, with Catppuccin colors
 7. Import this theme at the beginning of the CSS files (all `@import`s must come before any existing `@namespace` declarations):
 
 	```sh
-	sed -i '1s/^/@import "firefox-gnome-theme\/userChrome.css";\n/' userChrome.css
-	sed -i '1s/^/@import "firefox-gnome-theme\/userContent.css";\n/' userContent.css
+	sed -i '1s/^/@import "firefox-gnome-catppuccin-theme\/userChrome.css";\n/' userChrome.css
+	sed -i '1s/^/@import "firefox-gnome-catppuccin-theme\/userContent.css";\n/' userContent.css
 	```
 
 8. Symlink preferences file:
 
 	```sh
 	cd .. # Go back to the profile directory
-	ln -fs chrome/firefox-gnome-theme/configuration/user.js user.js
+	ln -fs chrome/firefox-gnome-catppuccin-theme/configuration/user.js user.js
 	```
 
 9. Restart Firefox.
